@@ -1,7 +1,6 @@
 hardware/builds
-hardware/gpio_ctrl_bkp/
-software/design_1_wrapper/
-software/
-software2/
-hardware/gpio_proj/
+software/*
+!software/gpio_ctrl_driver
+software/gpio_ctrl_driver/*
+!software/gpio_ctrl_driver/src
 
